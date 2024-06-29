@@ -32,6 +32,7 @@ public class VerifyMessage {
             signature = Base64.getDecoder().decode(parts[1]);
             System.out.println(parts);
         } else {
+            System.out.println("Hi satya");
             throw new IllegalStateException("Invalid file format");
         }
     }
